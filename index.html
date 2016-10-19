@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    <div class="newsletterform">  
+        <form class="register" action="#" id="registerSubmit">
+            <table>
+
+                <tr>
+                    <td colspan="2" id="title">Register</td>
+                </tr>
+
+                <tr>
+                    <td>Username: </td>
+                    <td><input type="text" name="usernames" id="username" placeholder="Enter username"></td>
+                </tr>
+
+                <tr>
+                    <td></td>
+                    <td><p id="messageUser"></p></td>
+                </tr>
+
+                <tr>
+                    <td>Email: </td>
+                    <td><input type="email" name="email" id="email" placeholder="Enter Email" id="email"></td>
+                </tr>
+
+                <tr>
+                    <td></td>
+                    <td><p id="messageEmail"></p></td>
+                </tr>
+
+                <tr>
+                    <td>Password: </td>
+                    <td><input type="password" name="password" placeholder="Enter Password" id="password"></td>
+                </tr>
+
+                <tr>
+                    <td></td>
+                    <td><p id="messagePass"></p></td>
+                </tr>
+
+                <tr>
+                    <td></td>
+                    <td><input type="button" value="Generate password" id="generate"><input id="number" type="text"></td>
+                    
+                </tr>
+
+                <tr>
+                    <td>Confirm password: </td>
+                    <td><input type="password" name="" placeholder="Enter Confirm password" id="confirmPassword"></td>
+                </tr>
+
+                <tr>
+                    <td></td>
+                    <td colspan="2"><p id="messageConfirmPass"></p></td>
+                </tr>
+
+                <tr>
+                    <td>Gender: </td>
+                    <td>
+                        <input type="radio" id="male" name = "male" checked="checked"> Male 
+                        <input type="radio"	id="female" name = "female">Female
+                    </td>
+                </tr>
+
+                <tr>
+                    <td></td>
+                    <td><p id="messageGender"></p></td>
+                </tr>
+                <tr>
+                    <td>Country</td>
+                    <td>
+                        <select id="country">
+                            <option value="VN">Viet Nam</option>
+                            <option value="VG">Virgin Islands, British</option>
+                            <option value="VI">Virgin Islands, U.S.</option>
+                            <option value="WF">Wallis and Futuna</option>
+                            <option value="EH">Western Sahara</option>
+                            <option value="YE">Yemen</option>
+                            <option value="ZM">Zambia</option>
+                            <option value="ZW">Zimbabwe</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><input type="button" value="Register" id="button"></td>
+                </tr>
+                
+                <tr>
+                    <td></td>
+                    <td><span id="loadingtext" style="display: none">Wait 2 sec...</span></td>
+                </tr>
+                
+            </table>
+        </form> 
+    </div> 
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/jquery-ui.min.js"></script>
+
+    <script src="js/hander.js"></script>
+    
+</body>
+</html>
